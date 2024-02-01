@@ -30,7 +30,7 @@ const Modal = ({ onCancel }) => {
           className='top-0 left-0 w-full h-screen bg-[#0009] fixed'
           onClick={() => onCancel()}>
           <div
-              className='w-[1000px] bg-[white] ml-[260px] h-[600px] mt-[60px] absolute rounded-xl cursor-pointer'
+              className='w-[1000px] bg-[white] ml-[260px] h-[600px] mt-[60px] absolute rounded-xl cursor-pointer v'
               onClick={(e) => e.stopPropagation()}>
         <div>
         </div>{users.map((item) => (
